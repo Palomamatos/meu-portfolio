@@ -1,90 +1,90 @@
 <!DOCTYPE html>
- <html lang="pt-BR">
-  <head>
+
+<head>
+    <title>Meu Portfolio</title>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Primeiro Portfólio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            padding: 200px;
-            background-color: #ffffff;
-            color: #000;
-        }
-        header {
-            background-color: #29d6e2;
-            padding: 10px;
-            text-align: center;
-        }
-        nav a {
-            margin: 15px;
-            color: #003f4e;
-            text-decoration: none;
-        }
-        section#inicio {
-            background-color: #c3e4f7; 
-            padding: 20px;
-        }
-        section#formacao {
-            background-color: #84d4df; 
-            padding: 20px;
-        }
-        section#portfolio {
-            background-color:#c3e4f7; 
-            padding: 20px;
-        }
-        .extra-section img {
-            margin-right: 10px;
-        }
-        h1, h2 {
-            color: #005463;
-        }
-        footer#contato{
-            background-color: #009ec5d8; 
-            color: #02020f;
-            padding: 20px;
-        }
-    </style>
- </head>
- <body>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
     <header>
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="formacao"> Formação</a>
-            <a href="#portfolio">Portfólio</a>
-            <a href="#contato">Contato</a>
+        <nav class="menu">
+            <ul>
+                <li><a href="#formação">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
         </nav>
-    </header>
-    <main>
-        <section id="inicio">
-            <img src="https://mail.google.com/mail/u/0?ui=2&ik=3de578fde9&attid=0.1&permmsgid=msg-a:r-7209029137143877339&th=191dd46387e4e3b8&view=att&disp=safe&realattid=191dd4605a6622d526b1"
-             width="150" height="150">
-            <h1>Paloma Matos</h1>
-            <p>Desenvolvedora em formação</p>
-            <p>Sou estagiaria no Itaú e estudo TI, area que escolhi <br> após passar na prova do enem,
-                Tenho o objetivo de <br>criar uma plataforma de cursos gratuitos para jovens <br> 
-                de baixa renda. Valorizo o desenvolvimento contínuo, <br> tanto tecnico quanto pessoal
-                e busco sempre crescer <br>e comntribuir com a comunidade.
-            </p>
-        </section>
+        <main class="principal">
+            <article id="sobre">
+                <section>
+                    <img class="minha-imagem" src="" alt="">
+                </section>
+                <section>
+                    <h1 class="titulo">Paloma Matos</h1>
+                    <h2 class="subtitulo">Desenvolvedora em formação</h2>
+                    <p class="primeiro-paragrafo">Sou estagiaria no Itaú e estudo TI, area que escolhi após passar na prova do enem,
+                        Tenho o objetivo de criar uma plataforma de cursos gratuitos para jovens
+                        de baixa renda. Valorizo o desenvolvimento contínuo, tanto tecnico quanto pessoal
+                        e busco sempre crescer e comntribuir com a comunidade.</p>
+                </section>
+            </article>
+        </main>
+
         <section id="formacao">
-            <h2>Formação</h2>
-                <p>Graduanda em Gestão da Tecnologia da Informação</p> 
-                <p>No Back-End tenho conhecimento inicial em Pyton e <br>certificações em Java
-                abordando desde de POO até<br> manipulação e leituras de arquivos. </p> 
-                <p>No Front-end completei treinamentos e faço o curso <br>do Minas Programam, onde aprendo e pratico
-                minhas <br>habilidades com tópicos fundamentais para a área de <br>desenvolvimento web. </p>
-           </section>
+            <h2 class="titulo_formacao">Formação</h2>
+            <div class="conteudo_formacao">
+                <article class="info_formacao">
+                    <h3>Curso de Programação</h3>
+                    <span><a href="#"></a></span>
+                    <p>Graduanda em Gestão da Tecnologia da Informação</p> 
+                    <p>No Back-End tenho conhecimento inicial em Pyton e certificações em Java
+                    abordando desde de POO até manipulação e leituras de arquivos.
+                    No Front-end completei treinamentos e faço o curso do Minas Programam, onde aprendo e pratico
+                    minhas habilidades com tópicos fundamentais para a área de desenvolvimento web.</p>
+                    </article>
+                <article class="info_formacao">
+                    <h3></h3>
+                    <span><a href="#"></a></span>
+                    <p></p>
+                </article>
+            </div>
         <section id="portfolio">
-            <!-- Nesta espaço será colocado meus futuros portfólios -->
-            <h2>Portfólio</h2>
-            <p>Projeto 1: Descrição do projeto...</p>
-            <p>Projeto 2: Descrição do projeto...</p>
+            <h2 class="titulo_portfolio">Projetos</h2>
+            <div class="conteudo_portfolio">
+                <article class="info_portfolio">
+                    <h3 class="segundo_titulo_portfolio">Portfolio pessoal</h3>
+                    <p>Desenvimento Web</p>
+                    <span><a href="#">Instituto Minas Programam</a></span>
+                    <p>Projeto desenvolvido durante o curso do Instituto Minas Programam com a finalidade de aprimorar
+                        os
+                        conhecimentos em ferramentas de desenvolvimento Web - HTML e CSS.</p>
+                </article>
+            </div>
         </section>
-        <footer id="contato">
-            <p>Email: <a href="https://mail.google.com/mail/u/0/?hl=pt-BR">palomamatos686@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/palomamatos/">@Paloma-Matos</a></p>
+
+        <footer id="rodapé">
+            <div class="rodape_conteudo">
+                <div class="rodape_item">
+                    <img class="rodape_icon" src="" alt="Icon Email">
+                    <span>palomamatos686@gmail.com</span>
+                </div>
+                <div class="rodape_item">
+                    <img class="rodape_icon" src="" alt="Icon Linkedin">
+                    <span><a href="https://www.linkedin.com/in/palomamatos/">PalomaMatos</a></span>
+                </div>
+                <div class="rodape_item">
+                    <img class="rodape_icon" src="" alt="Icon Github">
+                    <span><a href="https://github.com/Palomamatos">Palomamatos</a></span>
+                </div>
+            </div>
         </footer>
-    </main>
- </body>
+
+    </header>
+</body>
+
 </html>

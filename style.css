@@ -1,0 +1,140 @@
+body, nav, main {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.menu {
+    background-color: #938DF8;
+    padding: 30px 0;
+    text-align: end; /* coloca os itens no final da pagina */
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none; /* tira estilo de lista */
+}
+
+.menu ul li {
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.principal {
+    padding-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #EDEAEA;
+}
+
+#sobre {
+    padding: 50px;
+    max-width: 600px;
+}
+
+.minha-imagem {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.titulo {
+   color: #938DF8; 
+   font-size: 36px;
+   font-weight: 700;
+}
+
+.subtitulo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.primeiro-paragrafo {
+    font-size: 16px;
+    line-height: 22.4px;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Formacao */
+
+#formacao {
+    background-color: #fff;
+    padding: 30px 80px;
+}
+
+.titulo_formacao {
+    color: #49BFB3;
+    font-size: 30px;
+}
+
+.conteudo_formacao {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_formacao {
+    width: 100%;
+    max-width: 600px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Portfolio */
+
+#portfolio {
+    background-color: #EDEAEA;
+    padding: 30px 80px;
+}
+
+.titulo_portfolio {
+    color: #49BFB3;
+    font-size: 30px;
+}
+
+.conteudo_portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info_portfolio {
+    width: 100%;
+    max-width: 600px;
+}
+
+.info_portfolio h3 {
+    color: #555;
+    font-size: 18px;
+}
+
+#rodapé {
+    background-color: #5A53D8;
+    padding: 38px;
+    color: white;
+}
+
+.rodape_item span a {
+    color: white;
+}
+
+.rodape_item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+.rodape_icon {
+    width: 25px;
+    margin-right: 10px;
+}
