@@ -59,6 +59,7 @@ body, nav, main {
 }
 
 .primeiro-paragrafo {
+    margin: auto;
     font-size: 16px;
     line-height: 22.4px;
     max-width: 500px;
@@ -89,6 +90,17 @@ body, nav, main {
     padding: 20px;
     margin-bottom: 20px;
 }
+.certificações {
+    display: flex;
+    align-items: center;
+    margin-bottom: 18px;
+}
+.cert-imagem{
+    width: 300px;
+    margin-right: 20px;
+
+}
+
 
 /* Portfolio */
 
@@ -118,14 +130,14 @@ body, nav, main {
     font-size: 18px;
 }
 
-#rodapé {
-    background-color: #5A53D8;
+#contato {
+    background-color: #938DF8;
     padding: 38px;
-    color: white;
+    color: rgb(245, 229, 229);
 }
 
 .rodape_item span a {
-    color: white;
+    color: rgb(255, 255, 255);
 }
 
 .rodape_item {
